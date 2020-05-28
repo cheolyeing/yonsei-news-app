@@ -1,0 +1,61 @@
+#HeadTop {
+  overflow: hidden;
+  width: 1020px;
+  margin: 0 auto;
+  border-bottom: 1px solid #dfdfdf;
+  background-color: #fff;
+  position: relative;
+  height: 39px;
+  font-family: "Nanum Gothic", "Malgun Gothic", serif;
+}
+div {
+  display: block;
+}
+div,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+.hd-btn-link {
+  position: absolute;
+  left: -10px;
+  top: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.hd-btn-link > li,
+.hd-btn-login > li {
+  float: left;
+  padding: 0 10px;
+  line-height: 38px;
+  letter-spacing: -0.04em;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.hd-btn-link > li > a,
+.hd-btn-login > li > a {
+  color: #77787b;
+  font-size: 13px;
+  font-weight: 600;
+}
+.hd-btn-login {
+  position: absolute;
+  right: -10px;
+  top: 0;
+}

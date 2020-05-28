@@ -1,0 +1,43 @@
+#HeadLogo {
+  overflow: hidden;
+  width: 100%;
+  padding: 5px 0;
+  background-color: #fff;
+  position: relative;
+  height: 90px;
+  text-align: center;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+div {
+  display: block;
+}
