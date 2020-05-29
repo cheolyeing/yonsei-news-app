@@ -9,6 +9,17 @@ class Table extends React.Component {
         <tbody>
           <tr>
             <td align="center">
+              <table id="Frame">
+                <tbody>
+                  <tr>
+                    <td>
+                      <div>
+                        <div id="empty"></div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
               <Head />
             </td>
           </tr>

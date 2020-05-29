@@ -5,10 +5,10 @@ import HeadLogo from "./HeadLogo";
 class Head extends React.Component {
   render() {
     return (
-      <div>
+      <header id="Head">
         <HeadTop />
         <HeadLogo />
-      </div>
+      </header>
     );
   }
 }
